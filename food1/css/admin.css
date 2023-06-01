@@ -1,0 +1,120 @@
+/*
+Author : koukkai;
+Theme: website admin;
+version: 1.0;
+
+*/
+*{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+}
+.wrapper {
+  padding: 1%;
+  width: 80%;
+  margin: 0 auto;
+}
+.text-center{
+  text-align: center;
+
+}
+.clearfix{
+  float: none;
+  clear: both;
+}
+.tbl-30{
+  width: 40%;
+  padding: 1%;
+}
+.tbl-full{
+  width: 100%;
+}
+table tr th{
+  border-bottom: 1px solid black;
+  padding: 1%;
+  text-align: left;
+}
+table tr td{
+  padding: 1%;
+}
+.btn-primary{
+  background-color: rgb(113, 113, 255);
+  padding: 1%;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-primary:hover{
+  background-color: rgb(39, 39, 48);
+}
+.btn-secondary{
+  background-color: rgb(94, 218, 112);
+  padding: 1%;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-secondary:hover{
+  background-color: rgb(90, 173, 94);
+} 
+.btn-danger{
+  background-color: rgb(240, 57, 57);
+  padding: 1%;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-danger:hover{
+  background-color: rgb(209, 52, 52);
+}
+.success{
+  color: rgb(42, 61, 165);
+}
+.error {
+  color: rgb(179, 39, 39);
+}
+/* css for menu */
+.menu {
+  border-bottom: 1px solid black;
+}
+.menu ul{
+  list-style-type: none;
+}
+.menu ul li{
+  display: inline;
+  padding: 1%;
+}
+.menu ul li a{
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(46, 72, 223);
+}
+.menu ul li a:hover{
+  color: rgb(104, 125, 241);
+}
+/* css for main content */
+.main-content{
+  background-color: rgb(194, 197, 235);
+  padding: 1% 0;
+}
+.col-4{
+  width: 18%;
+  background-color: whitesmoke;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+}
+/* css for footer */
+.footer {
+  background-color: rgb(104, 125, 241); 
+  color: whitesmoke;
+
+}
+/* login */
+.login {
+  
+  border: 1px solid grey;
+  width: 30%;
+  margin: 10% auto;
+  padding: 2%;
+}
